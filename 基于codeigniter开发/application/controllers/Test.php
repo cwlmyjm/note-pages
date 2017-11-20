@@ -10,10 +10,10 @@ class Test extends CI_Controller {
 	public function index()
 	{
         $key = $this->apiInfo_model->getKey();
-        echo $key;
+        //echo $key;
         echo "<br />";
         $secret = $this->apiInfo_model->getSecret();
-        echo $secret;
+        //echo $secret;
         echo "<br />";
 	}
     
